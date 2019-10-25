@@ -1,3 +1,3 @@
-docker image build --tag secobau/4399-aws2ec https://raw.githubusercontent.com/secobau/4399/aws2ec/Dockerfile
+docker image build --tag secobau/4543:aws2ec https://raw.githubusercontent.com/secobau/4543/aws2ec/Dockerfile
 
-docker container run --publish 8080:80 --name aws2ec --restart unless-stopped --detach secobau/4399-aws2ec
+docker container run --publish 8080:80 --name aws2ec --restart unless-stopped --detach secobau/4543:aws2ec

@@ -1,27 +1,27 @@
 GITHUB:
 
-https://github.com/secobau/4399
+https://github.com/secobau/4543
 
 
 DOCKERHUB:
 
-https://hub.docker.com/r/secobau/4399-c9
-https://hub.docker.com/r/secobau/4399-api
-https://hub.docker.com/r/secobau/4399-aws2c9
-https://hub.docker.com/r/secobau/4399-aws2ec
-https://hub.docker.com/r/secobau/4399-ec2api
-https://hub.docker.com/r/secobau/4399-ec2aws
+https://hub.docker.com/r/secobau/4543-c9
+https://hub.docker.com/r/secobau/4543-api
+https://hub.docker.com/r/secobau/4543-aws2c9
+https://hub.docker.com/r/secobau/4543-aws2ec
+https://hub.docker.com/r/secobau/4543-ec2api
+https://hub.docker.com/r/secobau/4543-ec2aws
 
 
 AWS:
 
 Create VPC
-Name tag - 4399
+Name tag - 4543
 IPv4 CIDR block - 192.168.0.0/16
 
 Create subnet
-Name tag - 4399-API
-VPC - 4399
+Name tag - 4543-API
+VPC - 4543
 Availability Zone - eu-central-1a
 IPv4 CIDR block - 192.168.1.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -29,8 +29,8 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create subnet
-Name tag - 4399-EC1
-VPC - 4399
+Name tag - 4543-EC1
+VPC - 4543
 Availability Zone - eu-central-1a
 IPv4 CIDR block - 192.168.2.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -38,8 +38,8 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create subnet
-Name tag - 4399-EC2
-VPC - 4399
+Name tag - 4543-EC2
+VPC - 4543
 Availability Zone - eu-central-1b
 IPv4 CIDR block - 192.168.3.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -47,8 +47,8 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create subnet
-Name tag - 4399-AWS1
-VPC - 4399
+Name tag - 4543-AWS1
+VPC - 4543
 Availability Zone - eu-central-1a
 IPv4 CIDR block - 192.168.4.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -56,8 +56,8 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create subnet
-Name tag - 4399-AWS2
-VPC - 4399
+Name tag - 4543-AWS2
+VPC - 4543
 Availability Zone - eu-central-1b
 IPv4 CIDR block - 192.168.5.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -65,8 +65,8 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create subnet
-Name tag - 4399-AWS3
-VPC - 4399
+Name tag - 4543-AWS3
+VPC - 4543
 Availability Zone - eu-central-1c
 IPv4 CIDR block - 192.168.6.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -74,8 +74,8 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create subnet
-Name tag - 4399-C9
-VPC - 4399
+Name tag - 4543-C9
+VPC - 4543
 Availability Zone - eu-central-1a
 IPv4 CIDR block - 192.168.7.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -83,8 +83,8 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create subnet
-Name tag - 4399-MGMT
-VPC - 4399
+Name tag - 4543-MGMT
+VPC - 4543
 Availability Zone - eu-central-1a
 IPv4 CIDR block - 192.168.8.0/24
 The following Subnet was created: Subnet ID - Click on the Subnet ID
@@ -92,107 +92,107 @@ Actions - Modify auto-assign IP settings
 Auto-assign IPv4 - Enable auto-assign public IPv4 address
 
 Create security group
-Security group name - 4399-EC
-Description - 4399-EC
-VPC - 4399
+Security group name - 4543-EC
+Description - 4543-EC
+VPC - 4543
 Create - The following security group was created: Security Group ID
 Click on the Security Group ID
 Actions - Add/Edit Tags
-Create Tag - Name - 4399-EC
+Create Tag - Name - 4543-EC
 Edit inbound rules - Add rule
 Type - All traffic
 Source - 192.168.2.0/24,192.168.3.0/24
 Save Rules - Close
 
 Create security group
-Security group name - 4399-AWS
-Description - 4399-AWS
-VPC - 4399
+Security group name - 4543-AWS
+Description - 4543-AWS
+VPC - 4543
 Create - The following security group was created: Security Group ID
 Click on the Security Group ID
 Actions - Add/Edit Tags
-Create Tag - Name - 4399-AWS
+Create Tag - Name - 4543-AWS
 Edit inbound rules - Add rule
 Type - All traffic
 Source - 192.168.4.0/24,192.168.5.0/24,192.168.6.0/24
 Save Rules - Close
 
 Create security group
-Security group name - 4399-API
-Description - 4399-API
-VPC - 4399
+Security group name - 4543-API
+Description - 4543-API
+VPC - 4543
 Create - The following security group was created: Security Group ID
 Click on the Security Group ID
 Actions - Add/Edit Tags
-Create Tag - Name - 4399-API
+Create Tag - Name - 4543-API
 Edit inbound rules - Add rule
 Port range - 8080
 Source - 192.168.1.0/24
 Save Rules - Close
 
 Create security group
-Security group name - 4399-C9
-Description - 4399-C9
-VPC - 4399
+Security group name - 4543-C9
+Description - 4543-C9
+VPC - 4543
 Create - The following security group was created: Security Group ID
 Click on the Security Group ID
 Actions - Add/Edit Tags
-Create Tag - Name - 4399-C9
+Create Tag - Name - 4543-C9
 Edit inbound rules - Add rule
 Port range - 8080
 Source - 192.168.7.0/24
 Save Rules - Close
 
 Create security group
-Security group name - 4399-SSH
-Description - 4399-SSH
-VPC - 4399
+Security group name - 4543-SSH
+Description - 4543-SSH
+VPC - 4543
 Create - The following security group was created: Security Group ID
 Click on the Security Group ID
 Actions - Add/Edit Tags
-Create Tag - Name - 4399-SSH
+Create Tag - Name - 4543-SSH
 Edit inbound rules - Add rule
 Port range - 22
 Source - 192.168.8.0/24
 Save Rules - Close
 
 Create security group
-Security group name - 4399-HTTP
-Description - 4399-HTTP
-VPC - 4399
+Security group name - 4543-HTTP
+Description - 4543-HTTP
+VPC - 4543
 Create - The following security group was created: Security Group ID
 Click on the Security Group ID
 Actions - Add/Edit Tags
-Create Tag - Name - 4399-HTTP
+Create Tag - Name - 4543-HTTP
 Edit inbound rules - Add rule
 Port range - 80
 Source - 0.0.0.0/0
 Save Rules - Close
 
 Create internet gateway
-Name tag - 4399
+Name tag - 4543
 Create - The following internet gateway was created: Internet gateway ID
 Click on the Internet gateway ID
 Actions - Attach to VPC
-VPC - Select a VPC - 4399 - Attach
-VPC Dashboard - 4399 - Main Route table
+VPC - Select a VPC - 4543 - Attach
+VPC Dashboard - 4543 - Main Route table
 Actions - Edit routes - Add route
 Destination - 0.0.0.0/0
-Target - Internet gateway - 4399
+Target - Internet gateway - 4543
 Save routes - Close
 
 AWS Cloud9 - Create environment
-Name - 4399
+Name - 4543
 Next step - Network settings (advanced)
-Network (VPC) - Select the ID of the VPC 4399 (the name of the VPC will not be visible but only the ID)
-Subnet - Select the ID of the subnet 4399-MGMT (the name of the subnet will not be visible but only the ID)
+Network (VPC) - Select the ID of the VPC 4543 (the name of the VPC will not be visible but only the ID)
+Subnet - Select the ID of the subnet 4543-MGMT (the name of the subnet will not be visible but only the ID)
 Next step - Review - Create environment
 After a few minutes the environment will be up and running then you can open a terminal and run the following commands:
 ssh-keygen - Accept all the answers by default
 cat $HOME/.ssh/id_rsa.pub - Copy the output of this last command and use it in the next step
 
 EC2 Dashboard - Key Pairs - Import Key Pair
-Key pair name: 4399
+Key pair name: 4543
 Public key contents: Paste here the output of the previous command in the last step
 Import
 
@@ -200,49 +200,49 @@ Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-API
+Network - 4543
+Subnet - 4543-API
 Network interfaces
 Primary IP - 192.168.1.170
 Advanced Details
-User data - https://github.com/secobau/4399/blob/api/README.md
+User data - https://github.com/secobau/4543/blob/api/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-API
+Step 5: Add Tags - Add tag - Name - 4543-API
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-EC
+4543-SSH
+4543-EC
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-C9
+Network - 4543
+Subnet - 4543-C9
 Network interfaces
 Primary IP - 192.168.7.95
 Advanced Details
-User data - https://github.com/secobau/4399/blob/c9/README.md
+User data - https://github.com/secobau/4543/blob/c9/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-C9
+Step 5: Add Tags - Add tag - Name - 4543-C9
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-AWS
+4543-SSH
+4543-AWS
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-AWS1
+Network - 4543
+Subnet - 4543-AWS1
 Advanced Details
-User data - https://github.com/secobau/4399/blob/leader/README.md
+User data - https://github.com/secobau/4543/blob/leader/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-UCP1
+Step 5: Add Tags - Add tag - Name - 4543-UCP1
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-AWS
+4543-SSH
+4543-AWS
 Step 7: Review Instance Launch - Select a key pair - Launch
 Your instances are now launching - View instance - Description - Private IPs - Copy to clipboard
 SSH connection to the machine
@@ -254,142 +254,142 @@ Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-AWS2
+Network - 4543
+Subnet - 4543-AWS2
 Advanced Details
-User data - https://github.com/secobau/4399/blob/manager/README.md
+User data - https://github.com/secobau/4543/blob/manager/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-UCP2
+Step 5: Add Tags - Add tag - Name - 4543-UCP2
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-AWS
+4543-SSH
+4543-AWS
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-AWS3
+Network - 4543
+Subnet - 4543-AWS3
 Advanced Details
-User data - https://github.com/secobau/4399/blob/manager/README.md
+User data - https://github.com/secobau/4543/blob/manager/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-UCP3
+Step 5: Add Tags - Add tag - Name - 4543-UCP3
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-AWS
+4543-SSH
+4543-AWS
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-AWS1
+Network - 4543
+Subnet - 4543-AWS1
 Advanced Details
-User data - https://github.com/secobau/4399/blob/worker/README.md
+User data - https://github.com/secobau/4543/blob/worker/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-AWS1
+Step 5: Add Tags - Add tag - Name - 4543-AWS1
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-AWS
-4399-C9
+4543-SSH
+4543-AWS
+4543-C9
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-AWS2
+Network - 4543
+Subnet - 4543-AWS2
 Advanced Details
-User data - https://github.com/secobau/4399/blob/worker/README.md
+User data - https://github.com/secobau/4543/blob/worker/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-AWS2
+Step 5: Add Tags - Add tag - Name - 4543-AWS2
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-AWS
-4399-C9
+4543-SSH
+4543-AWS
+4543-C9
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-AWS3
+Network - 4543
+Subnet - 4543-AWS3
 Advanced Details
-User data - https://github.com/secobau/4399/blob/worker/README.md
+User data - https://github.com/secobau/4543/blob/worker/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-AWS3
+Step 5: Add Tags - Add tag - Name - 4543-AWS3
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-AWS
-4399-C9
+4543-SSH
+4543-AWS
+4543-C9
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Create target group
-Target group name - 4399-AWS2C9
+Target group name - 4543-AWS2C9
 Target type - Instance
 Protocol - HTTP
 Port - 8888
-VPC - 4399
+VPC - 4543
 Health check settings
 Protocol - HTTP
 Create - Actions
 Register and deregister instances / ip targets
-4399-AWS1
-4399-AWS2
-4399-AWS3
+4543-AWS1
+4543-AWS2
+4543-AWS3
 Add to registered on port 8888 - Save
 
 Create target group
-Target group name - 4399-AWS2EC
+Target group name - 4543-AWS2EC
 Target type - Instance
 Protocol - TCP
 Port - 8080
-VPC - 4399
+VPC - 4543
 Health check settings
 Protocol - TCP
 Create - Actions
 Register and deregister instances / ip targets
-4399-AWS1
-4399-AWS2
-4399-AWS3
+4543-AWS1
+4543-AWS2
+4543-AWS3
 Add to registered on port 8080 - Save
 
 Create target group
-Target group name - 4399-UCP
+Target group name - 4543-UCP
 Target type - Instance
 Protocol - HTTPS
 Port - 443
-VPC - 4399
+VPC - 4543
 Health check settings
 Protocol - HTTPS
 Path - /_ping
 Create - Actions
 Register and deregister instances / ip targets
-4399-UCP1
-4399-UCP2
-4399-UCP3
+4543-UCP1
+4543-UCP2
+4543-UCP3
 Add to registered on port 443 - Save
 
 Create Load Balancer - Create Network Load Balancer
 Step 1: Configure Load Balancer - Basic Configuration
-Name - 4399-C9
+Name - 4543-C9
 Scheme - internal
 Listeners
 Load Balancer Protocol - TCP
 Load Balancer Port - 8080
-Availability Zones - VPC - 4399
+Availability Zones - VPC - 4543
 Availability Zones
-eu-central-1a - Select a subnet - 4399-AWS1
-eu-central-1b - Select a subnet - 4399-AWS2
-eu-central-1c - Select a subnet - 4399-AWS3
-Tags - Name - 4399-C9
+eu-central-1a - Select a subnet - 4543-AWS1
+eu-central-1b - Select a subnet - 4543-AWS2
+eu-central-1c - Select a subnet - 4543-AWS3
+Tags - Name - 4543-C9
 Step 2: Configure Security Settings
 Step 3: Configure Routing - Target group - Target group - Existing target group
-Name - 4399-AWS2EC
+Name - 4543-AWS2EC
 Target type - Instance
 Protocol - TCP
 Port - 8080
@@ -399,24 +399,24 @@ Step 5: Review - Create
 
 Create Load Balancer - Create Application Load Balancer
 Step 1: Configure Load Balancer - Basic Configuration
-Name - 4399-AWS
+Name - 4543-AWS
 Scheme - internet-facing
 IP address type - ipv4
 Listeners
 Load Balancer Protocol - HTTP
 Load Balancer Port - 80
-Availability Zones - VPC - 4399
+Availability Zones - VPC - 4543
 Availability Zones
-eu-central-1a - Select a subnet - 4399-AWS1
-eu-central-1b - Select a subnet - 4399-AWS2
-eu-central-1c - Select a subnet - 4399-AWS3
-Tags - Name - 4399-AWS
+eu-central-1a - Select a subnet - 4543-AWS1
+eu-central-1b - Select a subnet - 4543-AWS2
+eu-central-1c - Select a subnet - 4543-AWS3
+Tags - Name - 4543-AWS
 Step 2: Configure Security Settings
 Step 3: Configure Security Groups - Assign a security group
-Select an existing security group - 4399-HTTP
+Select an existing security group - 4543-HTTP
 Step 4: Configure Routing - Target group
 Target group - Existing target group
-Name - 4399-AWS2C9
+Name - 4543-AWS2C9
 Target type - Instance
 Protocol - HTTP
 Port - 8888
@@ -434,29 +434,29 @@ Add rules  - Insert Rule
 Add condition - Path
 Path is - /C9/*
 Validate - Add action
-Forward to - 4399-AWS2C9
+Forward to - 4543-AWS2C9
 Validate - Save
 
 Create Load Balancer - Create Application Load Balancer
 Step 1: Configure Load Balancer - Basic Configuration
-Name - 4399-UCP
+Name - 4543-UCP
 Scheme - internet-facing
 IP address type - ipv4
 Listeners
 Load Balancer Protocol - HTTP
 Load Balancer Port - 80
-Availability Zones - VPC - 4399
+Availability Zones - VPC - 4543
 Availability Zones
-eu-central-1a - Select a subnet - 4399-AWS1
-eu-central-1b - Select a subnet - 4399-AWS2
-eu-central-1c - Select a subnet - 4399-AWS3
-Tags - Name - 4399-UCP
+eu-central-1a - Select a subnet - 4543-AWS1
+eu-central-1b - Select a subnet - 4543-AWS2
+eu-central-1c - Select a subnet - 4543-AWS3
+Tags - Name - 4543-UCP
 Step 2: Configure Security Settings
 Step 3: Configure Security Groups - Assign a security group
-Select an existing security group - 4399-HTTP
+Select an existing security group - 4543-HTTP
 Step 4: Configure Routing - Target group
 Target group - Existing target group
-Name - 4399-UCP
+Name - 4543-UCP
 Target type - Instance
 Protocol - HTTPS
 Port - 443
@@ -467,93 +467,93 @@ Step 5: Register Targets
 Step 6: Review - Create
 
 Restrict services to worker nodes
-Connect to the UCP load balancer: 4399-UCP - Description - DNS Name - http://4399-UCP-xxxxx.eu-central-1.elb.amazonaws.com
+Connect to the UCP load balancer: 4543-UCP - Description - DNS Name - http://4543-UCP-xxxxx.eu-central-1.elb.amazonaws.com
 Access UCP dashboard: login credentials - Skip license for now
 Access Admin Settings - Scheduler
 Disable the following rule: Allow Users To Schedule On All Nodes, Including UCP Managers And DTR Nodes
 
 Edit the configuration file for the EC2AWS reverse proxy
 Go to the Github repository and modify the line number 11 of the following file:
-https://github.com/secobau/4399/blob/ec2aws/ec2aws.conf
+https://github.com/secobau/4543/blob/ec2aws/ec2aws.conf
 Check in Dockerhub until the build with the corrected image has finished:
-https://cloud.docker.com/repository/docker/secobau/4399-ec2aws/builds
+https://cloud.docker.com/repository/docker/secobau/454builds
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-EC1
+Network - 4543
+Subnet - 4543-EC1
 Advanced Details
-User data - https://github.com/secobau/4399/blob/ec2api/README.md - https://github.com/secobau/4399/blob/ec2aws/README.md
+User data - https://github.com/secobau/4543/blob/ec2api/README.md - https://github.com/secobau/4543/blob/ec2aws/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-EC1
+Step 5: Add Tags - Add tag - Name - 4543-EC1
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-EC
-4399-API
+4543-SSH
+4543-EC
+4543-API
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
 Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
-Network - 4399
-Subnet - 4399-EC2
+Network - 4543
+Subnet - 4543-EC2
 Advanced Details
-User data - https://github.com/secobau/4399/blob/ec2api/README.md - https://github.com/secobau/4399/blob/ec2aws/README.md
+User data - https://github.com/secobau/4543/blob/ec2api/README.md - https://github.com/secobau/4543/blob/ec2aws/README.md
 Step 4: Add Storage - 8
-Step 5: Add Tags - Add tag - Name - 4399-EC2
+Step 5: Add Tags - Add tag - Name - 4543-EC2
 Step 6: Configure Security Group - Select an existing security group
-4399-SSH
-4399-EC
-4399-API
+4543-SSH
+4543-EC
+4543-API
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Create target group
-Target group name - 4399-EC2API
+Target group name - 4543-EC2API
 Target type - Instance
 Protocol - HTTP
 Port - 8888
-VPC - 4399
+VPC - 4543
 Health check settings
 Protocol - HTTP
 Create - Actions
 Register and deregister instances / ip targets
-4399-EC1
-4399-EC2
+4543-EC1
+4543-EC2
 Add to registered on port 8888 - Save
 
 Create target group
-Target group name - 4399-EC2AWS
+Target group name - 4543-EC2AWS
 Target type - Instance
 Protocol - TCP
 Port - 8080
-VPC - 4399
+VPC - 4543
 Health check settings
 Protocol - TCP
 Create - Actions
 Register and deregister instances / ip targets
-4399-EC1
-4399-EC2
+4543-EC1
+4543-EC2
 Add to registered on port 8080 - Save
 
 Create Load Balancer - Create Network Load Balancer
 Step 1: Configure Load Balancer - Basic Configuration
-Name - 4399-API
+Name - 4543-API
 Scheme - internal
 Listeners
 Load Balancer Protocol - TCP
 Load Balancer Port - 8080
-Availability Zones - VPC - 4399
+Availability Zones - VPC - 4543
 Availability Zones
-eu-central-1a - Select a subnet - 4399-EC1
-eu-central-1b - Select a subnet - 4399-EC2
-Tags - Name - 4399-API
+eu-central-1a - Select a subnet - 4543-EC1
+eu-central-1b - Select a subnet - 4543-EC2
+Tags - Name - 4543-API
 Step 2: Configure Security Settings
 Step 3: Configure Routing
 Target group - Target group - Existing target group
-Name - 4399-EC2AWS
+Name - 4543-EC2AWS
 Target type - Instance
 Protocol - TCP
 Port - 8080
@@ -563,22 +563,22 @@ Step 5: Review - Create
 
 Create Load Balancer - Create Application Load Balancer
 Step 1: Configure Load Balancer - Basic Configuration
-Name - 4399-EC
+Name - 4543-EC
 Scheme - internet-facing
 IP address type - ipv4
 Listeners
 Load Balancer Protocol - HTTP
 Load Balancer Port - 80
-Availability Zones - VPC - 4399
+Availability Zones - VPC - 4543
 Availability Zones
-eu-central-1a - Select a subnet - 4399-EC1
-eu-central-1b - Select a subnet - 4399-EC2
-Tags - Name - 4399-EC
+eu-central-1a - Select a subnet - 4543-EC1
+eu-central-1b - Select a subnet - 4543-EC2
+Tags - Name - 4543-EC
 Step 2: Configure Security Settings
 Step 3: Configure Security Groups - Assign a security group
-Select an existing security group - 4399-HTTP
+Select an existing security group - 4543-HTTP
 Step 4: Configure Routing - Target group - Target group - Existing target group
-Name - 4399-EC2API
+Name - 4543-EC2API
 Target type - Instance
 Protocol - HTTP
 Port - 8888
@@ -596,31 +596,31 @@ Add rules - Insert Rule
 Add condition - Path
 Path is - /API/*
 Validate
-Add action - Forward to - 4399-EC2API
+Add action - Forward to - 4543-EC2API
 Validate - Save
 
 Edit the configuration file for the AWS2EC reverse proxy
 Go to the Github repository and modify the line number 11 of the following file:
-https://github.com/secobau/4399/blob/aws2ec/aws2ec.conf
+https://github.com/secobau/4543/blob/aws2ec/aws2ec.conf
 Check in Dockerhub until the build with the corrected image has finished:
-https://cloud.docker.com/repository/docker/secobau/4399-aws2ec/builds
+https://cloud.docker.com/repository/docker/secobau/454builds
 
 Deploy AWS application
-Connect to instance: 4399-UCP1
+Connect to instance: 4543-UCP1
 Execute the following commands to deploy the application:
 sudo yum install -y git
-git clone --single-branch --branch leader https://github.com/secobau/4399.git
-sudo docker stack deploy --compose-file 4399/aws.yml AWS
+git clone --single-branch --branch leader https://github.com/secobau/4543.git
+sudo docker stack deploy --compose-file 4543/aws.yml AWS
 
 Initialize API with values
-Connect to instance: 4399-C9
+Connect to instance: 4543-C9
 Run the following commands: 
 sudo docker container exec -ti c9 sh
-curl 4399-C9-XXX.elb.eu-central-1.amazonaws.com:8080/API/ -H "Content-Type: application/json" -X POST -d '{"colour":"red", "size":"small"}' ; echo
-curl 4399-C9-XXX.elb.eu-central-1.amazonaws.com:8080/API/ ; echo
+curl 4543-C9-XXX.elb.eu-central-1.amazonaws.com:8080/API/ -H "Content-Type: application/json" -X POST -d '{"colour":"red", "size":"small"}' ; echo
+curl 4543-C9-XXX.elb.eu-central-1.amazonaws.com:8080/API/ ; echo
 
 Verify the connection from API to C9
-Connect to instance: 4399-API
+Connect to instance: 4543-API
 Run the following commands:
 sudo docker container exec -ti api sh
-curl 4399-API-XXX.elb.eu-central-1.amazonaws.com:8080/C9/
+curl 4543-API-XXX.elb.eu-central-1.amazonaws.com:8080/C9/
