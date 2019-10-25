@@ -205,7 +205,7 @@ Subnet - 4543-API
 Network interfaces
 Primary IP - 192.168.1.170
 Advanced Details
-User data - https://github.com/secobau/4543/blob/api/README.md
+User data - https://github.com/secobau/4543/blob/master/api/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-API
 Step 6: Configure Security Group - Select an existing security group
@@ -222,7 +222,7 @@ Subnet - 4543-C9
 Network interfaces
 Primary IP - 192.168.7.95
 Advanced Details
-User data - https://github.com/secobau/4543/blob/c9/README.md
+User data - https://github.com/secobau/4543/blob/master/c9/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-C9
 Step 6: Configure Security Group - Select an existing security group
@@ -237,7 +237,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-AWS1
 Advanced Details
-User data - https://github.com/secobau/4543/blob/leader/README.md
+User data - https://github.com/secobau/4543/blob/master/leader/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-UCP1
 Step 6: Configure Security Group - Select an existing security group
@@ -257,7 +257,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-AWS2
 Advanced Details
-User data - https://github.com/secobau/4543/blob/manager/README.md
+User data - https://github.com/secobau/4543/blob/master/manager/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-UCP2
 Step 6: Configure Security Group - Select an existing security group
@@ -272,7 +272,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-AWS3
 Advanced Details
-User data - https://github.com/secobau/4543/blob/manager/README.md
+User data - https://github.com/secobau/4543/blob/master/manager/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-UCP3
 Step 6: Configure Security Group - Select an existing security group
@@ -287,7 +287,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-AWS1
 Advanced Details
-User data - https://github.com/secobau/4543/blob/worker/README.md
+User data - https://github.com/secobau/4543/blob/master/worker/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-AWS1
 Step 6: Configure Security Group - Select an existing security group
@@ -303,7 +303,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-AWS2
 Advanced Details
-User data - https://github.com/secobau/4543/blob/worker/README.md
+User data - https://github.com/secobau/4543/blob/master/worker/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-AWS2
 Step 6: Configure Security Group - Select an existing security group
@@ -319,7 +319,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-AWS3
 Advanced Details
-User data - https://github.com/secobau/4543/blob/worker/README.md
+User data - https://github.com/secobau/4543/blob/master/worker/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-AWS3
 Step 6: Configure Security Group - Select an existing security group
@@ -474,7 +474,7 @@ Disable the following rule: Allow Users To Schedule On All Nodes, Including UCP 
 
 Edit the configuration file for the EC2AWS reverse proxy
 Go to the Github repository and modify the line number 11 of the following file:
-https://github.com/secobau/4543/blob/ec2aws/ec2aws.conf
+https://github.com/secobau/4543/blob/master/ec2aws/ec2aws.conf
 Check in Dockerhub until the build with the corrected image has finished:
 https://cloud.docker.com/repository/docker/secobau/454builds
 
@@ -485,7 +485,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-EC1
 Advanced Details
-User data - https://github.com/secobau/4543/blob/ec2api/README.md - https://github.com/secobau/4543/blob/ec2aws/README.md
+User data - https://github.com/secobau/4543/blob/master/ec2api/README.md - https://github.com/secobau/4543/blob/master/ec2aws/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-EC1
 Step 6: Configure Security Group - Select an existing security group
@@ -501,7 +501,7 @@ Step 3: Configure Instance Details
 Network - 4543
 Subnet - 4543-EC2
 Advanced Details
-User data - https://github.com/secobau/4543/blob/ec2api/README.md - https://github.com/secobau/4543/blob/ec2aws/README.md
+User data - https://github.com/secobau/4543/blob/master/ec2api/README.md - https://github.com/secobau/4543/blob/master/ec2aws/README.md
 Step 4: Add Storage - 8
 Step 5: Add Tags - Add tag - Name - 4543-EC2
 Step 6: Configure Security Group - Select an existing security group
@@ -601,7 +601,7 @@ Validate - Save
 
 Edit the configuration file for the AWS2EC reverse proxy
 Go to the Github repository and modify the line number 11 of the following file:
-https://github.com/secobau/4543/blob/aws2ec/aws2ec.conf
+https://github.com/secobau/4543/blob/master/aws2ec/aws2ec.conf
 Check in Dockerhub until the build with the corrected image has finished:
 https://cloud.docker.com/repository/docker/secobau/454builds
 
