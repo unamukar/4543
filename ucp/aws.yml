@@ -1,0 +1,25 @@
+version: '3'
+services:
+ aws2c9:
+  image: "secobau/4399-aws2c9"
+  ports:
+   - "8888:80"
+  volumes:
+   - aws2c9-logs:/var/log/nginx
+  deploy:
+   replicas: 2
+   restart_policy:
+    condition: any
+ aws2ec:
+  image: "secobau/4399-aws2ec"
+  ports:
+   - "8080:80"
+  volumes:
+   - aws2ec-logs:/var/log/nginx
+  deploy:
+   replicas: 2
+   restart_policy:
+    condition: any
+volumes:
+ aws2c9-logs:
+ aws2ec-logs:
