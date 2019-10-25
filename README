@@ -192,7 +192,7 @@ Public key contents: Paste here the output of the previous command in the last s
 Import
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4543
@@ -209,7 +209,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4543
@@ -226,7 +226,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
 Network - 4543
@@ -246,7 +246,7 @@ cat /token_worker - sudo docker swarm join --token XXXXXXXXXX X.X.X.X:2377 (KEEP
 cat /token_ucp - UCP_ADMIN_USERNAME=xxx (KEEP THIS TOKEN FOR LATER) - UCP_ADMIN_PASSWORD=xxx (KEEP THIS TOKEN FOR LATER)
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
 Network - 4543
@@ -261,7 +261,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.medium
 Step 3: Configure Instance Details
 Network - 4543
@@ -276,7 +276,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4543
@@ -292,7 +292,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4543
@@ -308,7 +308,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4543
@@ -474,7 +474,7 @@ Check in Dockerhub until the build with the corrected image has finished:
 https://cloud.docker.com/repository/docker/secobau/454builds
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4543
@@ -490,7 +490,7 @@ Step 6: Configure Security Group - Select an existing security group
 Step 7: Review Instance Launch - Select a key pair - Launch
 
 Launch Instance
-Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-00aa4671cbf840d82 (64-bit x86) / ami-0226a38317e2aca0d (64-bit Arm)
+Step 1: Choose an Amazon Machine Image (AMI) - Amazon Linux 2 AMI (HVM), SSD Volume Type
 Step 2: Choose an Instance Type - t2.micro
 Step 3: Configure Instance Details
 Network - 4543
